@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(rgba(0, 140, 255, 0.45),rgba(0, 0, 60, 0.75)), url('/img/fondo.webp') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+
+}
+.description {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.form-control {
+    background: transparent !important;
+    color: white !important;
+}
+
+a .fab, a.fab {
+    color: white;
+    font-size: 24px !important;
+    margin: 0 10px !important;
+    transition: color 0.3s !important;
+}
